@@ -6,12 +6,12 @@ const InputScreen = ({ navigation }) => {
   return (
     <View>
       <View style={styles_is.input_container}>
-        <View>
+        <View style = {styles_is.input}>
         <TextInput
           placeholder = "Input your food here"
           />
         </View>
-        <View>
+        <View style={styles_is.input}>
         <TextInput
           placeholder = "Serving size"
           />
@@ -28,9 +28,15 @@ const styles_is = StyleSheet.create({
       backgroundColor: "#D8D8D6",
       flexDirection: 'column',
       justifyContent: 'space-around',
+      alignItems: 'center',
     },
     input: {
-      alignItems:'center',
-
+      margin: 50,
+      borderWidth: 5,
+      borderRadius: 15,
+      padding: 40,
+    },
+    text_input: {
+      width: "auto",
     }
 });
