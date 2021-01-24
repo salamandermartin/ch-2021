@@ -35,13 +35,13 @@ class ProfileScreen extends Component {
           </View>
           </View>
           <Image source={require('./img/environment.png')}
-            style = {{height: 100, width: 100, marginRight: 70}}/>
+            style = {{height: 150, width: 150, marginRight: 70,}}/>
         </View>
         <View style = {styles_ps.suggestion_txt_container}>
           <Text> Looking to improve your score? </Text>
           <Text style={{textDecorationLine: 'underline'}}> Check out these low carbon emission recipes. </Text>
         </View>
-      </ImageBackground>
+
         <View style = {styles_ps.analysis}>
           <Text style = {styles_ps.analysis_header}> Analysis </Text>
           <Text style = {styles_ps.analysis_subheader}> Last 7 Days </Text>
@@ -104,6 +104,7 @@ class ProfileScreen extends Component {
             </View>
           </View>
         </View>
+        </ImageBackground>
       </View>
     );
   }
@@ -119,6 +120,7 @@ const styles_ps = StyleSheet.create({
   top_percentages_container: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    paddingTop: 60,
   },
   top_percentages: {
     fontSize: 28,
@@ -132,6 +134,7 @@ const styles_ps = StyleSheet.create({
     flexDirection: 'row',
   },
   suggestion_txt_container: {
+    marginTop: 180,
     marginLeft: 6,
   },
   analysis: {
@@ -170,6 +173,7 @@ const styles_ps = StyleSheet.create({
     flexDirection: 'row',
     alignSelf: 'center',
     justifyContent: 'space-around',
+    padding: 10,
   },
   line: {
     height: 1,
