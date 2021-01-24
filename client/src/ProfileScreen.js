@@ -125,6 +125,9 @@ const styles_ps = StyleSheet.create({
     fontWeight: 'bold',
     padding: 18,
   },
+  small_txt: {
+    marginTop: 7,
+  },
   percentage_container: {
     flexDirection: 'row',
   },
