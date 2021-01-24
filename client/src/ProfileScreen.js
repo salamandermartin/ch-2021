@@ -87,7 +87,6 @@ class ProfileScreen extends Component {
             <View style = {styles_ps.break_down_text}>
               <Text style={styles_ps.food_text1}> {this.state.food1[1]} </Text>
               <Text style={styles_ps.food_text2}> {this.state.food1[0]} </Text>
-              <View style = {styles_ps.line} />
             </View>
             <View style = {styles_ps.break_down_text}>
               <Text style={styles_ps.food_text1}> {this.state.food2[1]} </Text>
@@ -191,9 +190,9 @@ const styles_ps = StyleSheet.create({
     borderBottomWidth: 1,
   },
   food_text1: {
-    align: 'left',
+    alignSelf: 'left',
   },
   food_text2: {
-    align: 'right',
+    alignSelf: 'right',
   }
 })
