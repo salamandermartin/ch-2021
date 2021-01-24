@@ -14,7 +14,7 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.logo}>
         <Image source={require('./img/logo.png')}
           style= {{height: 250, width: 250,}} />
-          <Text style={styles.logo_text}> Carbon Foodprint </Text>
+          <Text style={styles.logo_text}> Carbon {"\n"} Foodprint </Text>
         </View>
         <TouchableOpacity
           onPress = {() =>
@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     alignItems: 'center',
     flexDirection: 'row',
+    flex: 1,
   },
   logo_text: {
     fontSize: 40,
@@ -89,6 +90,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     flexDirection: 'row',
     padding: 32,
+    flex: 1,
   },
   fp_btn_record:{
     backgroundColor: "#D5B9B1",
@@ -100,6 +102,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     flexDirection: 'row',
     padding: 32,
+    flex: 1,
   },
   fp_btn_search:{
     backgroundColor: "#457373",
@@ -111,10 +114,12 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     flexDirection: 'row',
     padding: 32,
+    flex: 1,
   },
   button_text: {
     fontSize: 25,
     color: 'white',
+    flex: 1,
   }
 
 });
