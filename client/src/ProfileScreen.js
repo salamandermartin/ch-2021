@@ -189,10 +189,4 @@ const styles_ps = StyleSheet.create({
     borderBottomColor: 'black',
     borderBottomWidth: 1,
   },
-  food_text1: {
-    alignSelf: 'left',
-  },
-  food_text2: {
-    alignSelf: 'right',
-  }
 })
