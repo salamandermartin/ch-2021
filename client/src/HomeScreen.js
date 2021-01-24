@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     padding: 10,
     flexDirection: "column",
     justifyContent: "flex-end",
-    
+
   },
   fp_btn:{
     alignItems: "center",

@@ -4,7 +4,20 @@ import { StyleSheet, Text, View, TouchableOpacity, Image} from "react-native";
 
 const ProfileScreen = ({ navigation }) => {
   return (
-    <Text> t</Text>
+    <View style = {styles_ps.body}>
+      <View>
+
+
+      </View>
+    </View>
   );
 };
+
 export default ProfileScreen;
+
+const styles_ps = StyleSheet.create({
+  body: {
+    backgroundColor: '#D8D8D6',
+    flexDirection: 'column',
+  }
+})
