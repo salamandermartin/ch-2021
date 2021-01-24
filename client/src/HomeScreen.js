@@ -1,12 +1,14 @@
 import React from "react";
 import "react-native-gesture-handler";
-import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground} from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground, Dimensions} from "react-native";
+
+const { width, height } = Dimensions.get('window');
 
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={{backgroundColor:'white',}}>
       <ImageBackground source= {require('./img/backgroundHomeScreen.png')}
-        style={{flexDirection: 'column',}}>
+        style={styles.bg_img}>
 
       <View style={styles.container}>
         <View style={styles.logo}>
@@ -55,6 +57,13 @@ export default HomeScreen;
 
 
 const styles = StyleSheet.create({
+  bg_img: {
+    width: width,
+    height: height,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+  },
   container: {
     padding: 10,
     flex: 1,

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "react-native-gesture-handler";
-import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground, TextInput } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground, TextInput, Dimensions } from "react-native";
+
+const { width, height } = Dimensions.get('window');
 
 class InputScreen extends Component {
   state = {
@@ -19,7 +21,7 @@ class InputScreen extends Component {
     return (
       <View>
         <ImageBackground source = {require('./img/record_background.png')}
-        style = {{flexDirection: 'column',}}>
+        style = {styles_is.bg_img}>
         <View style={styles_is.input_container}>
           <View style={styles_is.input}>
             <TextInput
@@ -86,7 +88,7 @@ class InputScreen extends Component {
             <View style={styles_is.picture_bg} >
               <Image source={require('./img/meal.png')}
                style = {{width: 80, height: 80,}} />
-            </View>
+            </View>,
             <View style={styles_is.history_info}>
               <Text> Date: {this.state.dates[0]} </Text>
               <Text> Ingredients: beef, rice </Text>
@@ -114,6 +116,13 @@ class InputScreen extends Component {
 export default InputScreen;
 
 const styles_is = StyleSheet.create({
+  bg_img: {
+    width: width,
+    height: height,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+  },
   input_container: {
     flexDirection: 'column',
     justifyContent: 'space-around',

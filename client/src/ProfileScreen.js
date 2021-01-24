@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "react-native-gesture-handler";
-import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground, Dimensions } from "react-native";
+
+const { width, height } = Dimensions.get('window');
 
 class ProfileScreen extends Component {
   state = {
@@ -23,7 +25,7 @@ class ProfileScreen extends Component {
     return (
       <View style={styles_ps.body}>
       <ImageBackground source = {require('./img/profile_background.png')}
-      style={{flexDirection: 'column'}}>
+      style={styles_ps.bg_img}>
         <View style={styles_ps.top_percentages_container}>
           <View>
           <View style={styles_ps.percentage_container}>
@@ -114,6 +116,13 @@ class ProfileScreen extends Component {
 export default ProfileScreen;
 
 const styles_ps = StyleSheet.create({
+  bg_img: {
+    width: width,
+    height: height,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+  },
   body: {
     backgroundColor: '#D5B9B1',
     flexDirection: 'column',
