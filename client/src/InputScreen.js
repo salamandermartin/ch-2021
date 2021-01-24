@@ -30,6 +30,13 @@ class InputScreen extends Component {
               onChangeText= {this.handleServing}
             />
           </View>
+          <TouchableOpacity
+             onPress = {this.handleServing}
+             >
+           <View style={styles_is.enter_btn}>
+           <Text style={styles_is.enter_txt}> Enter </Text>
+           </View>
+          </TouchableOpacity>
         </View>
       </View>
     );
