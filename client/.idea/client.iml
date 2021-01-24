@@ -2,8 +2,52 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="true" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library name="test">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$" />
+          <root url="file://$MODULE_DIR$/node_modules/@react-native-community/masked-view/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/@unimodules/core/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/@unimodules/react-native-adapter/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-application/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-constants/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-file-system/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-font/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-keep-awake/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-linear-gradient/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-location/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-secure-store/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/expo-sqlite/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native-gesture-handler/android/lib/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native-gesture-handler/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native-reanimated/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native-safe-area-context/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native-screens/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native/ReactAndroid/src/androidTest/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native/ReactAndroid/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native/ReactAndroid/src/test/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native/template/android/app/src/debug/java" />
+          <root url="file://$MODULE_DIR$/node_modules/react-native/template/android/app/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-app-loader/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-barcode-scanner-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-camera-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-constants-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-face-detector-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-file-system-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-font-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-image-loader-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-permissions-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-sensors-interface/android/src/main/java" />
+          <root url="file://$MODULE_DIR$/node_modules/unimodules-task-manager-interface/android/src/main/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

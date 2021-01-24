@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d4cd976-17b2-4d97-995f-9251f36f2f03" name="Default Changelist" comment="" />
+    <list default="true" id="7d4cd976-17b2-4d97-995f-9251f36f2f03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -17,12 +21,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration name="Test 1" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -91,13 +99,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="622" y="123" width="666" height="804" key="#Test_1" timestamp="1611474022382">
+    <state x="469" y="119" width="1024" height="852" key="#Project_Structure" timestamp="1611476509678">
       <screen x="0" y="27" width="1920" height="989" />
     </state>
-    <state x="622" y="123" width="666" height="804" key="#Test_1/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611474022382" />
-    <state x="418" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611473731894">
+    <state x="469" y="119" width="1024" height="852" key="#Project_Structure/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611476509678" />
+    <state x="622" y="123" width="666" height="804" key="#Test_1" timestamp="1611474139008">
       <screen x="0" y="27" width="1920" height="989" />
     </state>
-    <state x="418" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611473731894" />
+    <state x="622" y="123" width="666" height="804" key="#Test_1/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611474139008" />
+    <state x="648" y="143" width="666" height="804" key="#Unnamed" timestamp="1611477652289">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="648" y="143" width="666" height="804" key="#Unnamed/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611477652289" />
+    <state x="418" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611477993657">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="418" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611477993657" />
+    <state x="814" y="300" width="324" height="497" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1611478042316">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="814" y="300" width="324" height="497" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611478042316" />
+    <state x="725" y="421" width="501" height="255" key="DetectedRootsChooserDialog" timestamp="1611477730011">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="725" y="421" width="501" height="255" key="DetectedRootsChooserDialog/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611477730011" />
+    <state x="608" y="288" width="735" height="520" key="FileChooserDialogImpl" timestamp="1611478055267">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="608" y="288" width="735" height="520" key="FileChooserDialogImpl/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611478055267" />
+    <state x="569" y="287" width="824" height="515" key="IDE.errors.dialog" timestamp="1611478006853">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="569" y="287" width="824" height="515" key="IDE.errors.dialog/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611478006853" />
+    <state x="469" y="119" width="1024" height="852" key="SettingsEditor" timestamp="1611478106659">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="469" y="119" width="1024" height="852" key="SettingsEditor/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611478106659" />
+    <state x="731" y="436" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611476448121">
+      <screen x="0" y="27" width="1920" height="989" />
+    </state>
+    <state x="731" y="436" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.989/1920.0.1920.1080@0.27.1920.989" timestamp="1611476448121" />
   </component>
 </project>
