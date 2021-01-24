@@ -4,7 +4,7 @@ import { View, FlatList, ActivityIndicator } from 'react-native';
 import { ListItem, SearchBar } from 'react-native-elements';
 import FoodEmission from './foodemissions.json'
 
-class App extends React.Component {
+class SearchScreen extends React.Component {
   constructor(props) {
     super(props);
     
