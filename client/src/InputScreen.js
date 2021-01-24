@@ -18,7 +18,8 @@ class InputScreen extends Component {
   render() {
     return (
       <View>
-        <ImageBackground source = {require('./img/record_background.png')}>
+        <ImageBackground source = {require('./img/record_background.png')}
+        style = {{flexDirection: 'column',}}>
         <View style={styles_is.input_container}>
           <View style={styles_is.input}>
             <TextInput

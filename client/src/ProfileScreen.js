@@ -22,7 +22,8 @@ class ProfileScreen extends Component {
   render() {
     return (
       <View style={styles_ps.body}>
-      <ImageBackground source = {require('./img/profile_background.png')}>
+      <ImageBackground source = {require('./img/profile_background.png')}
+      style={{flexDirection: 'column'}}>
         <View style={styles_ps.top_percentages_container}>
           <View>
           <View style={styles_ps.percentage_container}>

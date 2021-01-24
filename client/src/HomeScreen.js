@@ -5,7 +5,8 @@ import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground} from 
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={{backgroundColor:'white',}}>
-      <ImageBackground source= {require('./img/backgroundHomeScreen.png')}>
+      <ImageBackground source= {require('./img/backgroundHomeScreen.png')}
+        style={{flexDirection: 'column',}}>
 
       <View style={styles.container}>
         <View style={styles.logo}>
