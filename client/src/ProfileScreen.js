@@ -1,16 +1,19 @@
-import React from "react";
+import React, { Component } from "react";
 import "react-native-gesture-handler";
-import { StyleSheet, Text, View, TouchableOpacity, Image} from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Image } from "react-native";
 
-const ProfileScreen = ({ navigation }) => {
-  return (
-    <View style = {styles_ps.body}>
-      <View>
+class ProfileScreen extends Component {
+
+  render() {
+    return (
+      <View style={styles_ps.body}>
+        <View>
 
 
+        </View>
       </View>
-    </View>
-  );
+    );
+  }
 };
 
 export default ProfileScreen;
