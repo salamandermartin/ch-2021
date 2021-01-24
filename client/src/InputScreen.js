@@ -3,6 +3,16 @@ import "react-native-gesture-handler";
 import { StyleSheet, Text, View, TouchableOpacity, Image, TextInput } from "react-native";
 
 class InputScreen extends Component {
+  state = {
+    food : '',
+    serving : ''
+  }
+  handleFood = (text) => {
+    this.setState({ food : text })
+  }
+  handleServing = (text) => {
+    this.setState( { serving : text })
+  }
 
   render() {
     return (
@@ -11,11 +21,13 @@ class InputScreen extends Component {
           <View style={styles_is.input}>
             <TextInput
               placeholder="Input your food here"
+              onChangeText = {this.handleFood}
             />
           </View>
           <View style={styles_is.input}>
             <TextInput
               placeholder="Serving size"
+              onChangeText= {this.handleServing}
             />
           </View>
         </View>
