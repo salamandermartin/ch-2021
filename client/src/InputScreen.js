@@ -5,7 +5,8 @@ import { StyleSheet, Text, View, TouchableOpacity, Image, ImageBackground, TextI
 class InputScreen extends Component {
   state = {
     food : '',
-    serving : ''
+    serving : '',
+    dates: ['1-24'],
   }
   handleFood = (text) => {
     this.setState({ food : text })
@@ -40,13 +41,68 @@ class InputScreen extends Component {
           </TouchableOpacity>
         </View>
         <View style={styles_is.history}>
-        <Text style={styles_is.history_header}> Food History </Text>
-        <View
-          style={{
-            borderBottomColor: 'black',
-            borderBottomWidth: 1,
-          }}
-        />
+          <Text style={styles_is.history_header}> Food History </Text>
+          <View
+            style={{
+              borderBottomColor: 'black',
+              borderBottomWidth: 1,
+            }}
+          />
+          <View style={styles_is.history_entry}>
+            <View style={styles_is.picture_bg} >
+              <Image source={require('./img/meal.png')}
+               style = {{width: 80, height: 80,}} />
+            </View>
+            <View style={styles_is.history_info}>
+              <Text> Date: {this.state.dates[0]} </Text>
+              <Text> Ingredients: beef, rice </Text>
+              <Text> Emission score: 100 </Text>
+            </View>
+          </View>
+          <View style={styles_is.history_entry}>
+            <View style={styles_is.picture_bg} >
+              <Image source={require('./img/meal.png')}
+               style = {{width: 80, height: 80,}} />
+            </View>
+            <View style={styles_is.history_info}>
+              <Text> Date: {this.state.dates[0]} </Text>
+              <Text> Ingredients: beef, rice </Text>
+              <Text> Emission score: 100 </Text>
+            </View>
+          </View>
+          <View style={styles_is.history_entry}>
+            <View style={styles_is.picture_bg} >
+              <Image source={require('./img/meal.png')}
+               style = {{width: 80, height: 80,}} />
+            </View>
+            <View style={styles_is.history_info}>
+              <Text> Date: {this.state.dates[0]} </Text>
+              <Text> Ingredients: beef, rice </Text>
+              <Text> Emission score: 100 </Text>
+            </View>
+          </View>
+          <View style={styles_is.history_entry}>
+            <View style={styles_is.picture_bg} >
+              <Image source={require('./img/meal.png')}
+               style = {{width: 80, height: 80,}} />
+            </View>
+            <View style={styles_is.history_info}>
+              <Text> Date: {this.state.dates[0]} </Text>
+              <Text> Ingredients: beef, rice </Text>
+              <Text> Emission score: 100 </Text>
+            </View>
+          </View>
+          <View style={styles_is.history_entry}>
+            <View style={styles_is.picture_bg} >
+              <Image source={require('./img/meal.png')}
+               style = {{width: 80, height: 80,}} />
+            </View>
+            <View style={styles_is.history_info}>
+              <Text> Date: {this.state.dates[0]} </Text>
+              <Text> Ingredients: beef, rice </Text>
+              <Text> Emission score: 100 </Text>
+            </View>
+          </View>
         </View>
         </ImageBackground>
       </View>
@@ -90,5 +146,17 @@ const styles_is = StyleSheet.create({
   history_header: {
     fontSize: 26,
     padding: 10,
+  },
+  history_entry: {
+    flexDirection: 'row',
+    padding: 22,
+  },
+  history_info: {
+    flexDirection: 'column',
+  },
+  picture_bg: {
+    backgroundColor:'#457373',
+    padding: 10,
+    borderRadius: 13,
   }
 });
